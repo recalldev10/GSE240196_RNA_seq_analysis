@@ -35,10 +35,17 @@ Statistical significance was assessed using adjusted p-values (FDR < 0.05) and a
 
 * Python (version 11.0 or higher)
 * Kallisto (v0.46.1)
-* R
-* Raw RNA-seq data from t Ensembl Mouse Genome cnda folder
-* Reference transcriptome (rnaseq-mus-musculus-GSE240196)
-* Analysis performed by NetworkAnalyst.ca
+* R (v4.4.2)
+
+### 
+
+### Notable Files
+
+* the zipped file Download.zip is the result of a multitude of analyses done by NetworkAnalyst.ca
+* count_martix.csv and count_martix.txt (tab delimited) are the count data from kallisto
+* the summary report gives interpretation to key plots
+* kallisto-bash.sh are instruction for quantification of abudnances
+* kallisto-output-join.R run to join results 
 
 ## Help
 
